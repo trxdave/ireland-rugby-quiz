@@ -13,6 +13,7 @@ h1 {
     font-family: 'Noto Sans';
     font-size: xxx-large;
     text-transform: uppercase;
+    text-shadow: -1px 0 black, 0 1px black; 1px 0 black, 0 -1px black;
 }
 
 img.irfu-logo {
@@ -25,22 +26,28 @@ img.irfu-logo {
 }
 
 img.aki-pic {
-    margin-left: 20px
+    margin-left: 20px;
+    border-radius: 20px;
 }
 
 img.team-pic {
     float: right;
     margin-right: 20px;
+    border-radius: 20px;
 }
 
 button#play {
     border-radius: 10px;
     text-decoration: none;
-    padding: 15px 32px 15px 32px;
+    padding: 35px 52px 35px 52px;
     background-color: white;
     color: #00744c;
     font-weight: bold;
     text-transform: uppercase;
+    margin-left: 440px;
+    margin-top: 100px;
+    position: absolute;
+    font-size: 50px;
 }
 
 button#how-to-play {
@@ -51,4 +58,13 @@ button#how-to-play {
     color: #00744c;
     font-weight: bold;
     text-transform: uppercase;
+    margin-left: 415px;
+    margin-top: 270px;
+    position: absolute;
+    font-size: 50px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1rem;
 }
