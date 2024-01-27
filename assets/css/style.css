@@ -11,5 +11,44 @@ h1 {
     text-align: center;
     color: white;
     font-family: 'Noto Sans';
-    font-size: xx-large;
+    font-size: xxx-large;
+    text-transform: uppercase;
+}
+
+img.irfu-logo {
+    display: flex;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+img.aki-pic {
+    margin-left: 20px
+}
+
+img.team-pic {
+    float: right;
+    margin-right: 20px;
+}
+
+button#play {
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px 32px 15px 32px;
+    background-color: white;
+    color: #00744c;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button#how-to-play {
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px 32px 15px 32px;
+    background-color: white;
+    color: #00744c;
+    font-weight: bold;
+    text-transform: uppercase;
 }
