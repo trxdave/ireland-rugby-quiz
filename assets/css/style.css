@@ -70,7 +70,7 @@ button#how-to-play {
 
 /* Play Quiz */
 #quiz {
-    background-color: #34b8fd;
+    background-color: #2aa5e3;
 }
 
 .quiz-container {
@@ -93,7 +93,7 @@ button#how-to-play {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #34b8fd;
+    background-color: #2aa5e3;
 }
 
 .answer-box {
@@ -121,5 +121,5 @@ p {
 }
 
 h1#question {
-    background-color: #34b8fd;
+    background-color: #2aa5e3;
 }
