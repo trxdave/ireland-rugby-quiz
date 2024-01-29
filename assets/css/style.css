@@ -13,7 +13,6 @@ h1 {
     font-family: 'Noto Sans';
     font-size: xxx-large;
     text-transform: uppercase;
-    text-shadow: -1px 0 black, 0 1px black; 1px 0 black, 0 -1px black;
 }
 
 img.irfu-logo {
@@ -67,4 +66,60 @@ button#how-to-play {
 .footer {
     text-align: center;
     font-size: 1rem;
+}
+
+/* Play Quiz */
+#quiz {
+    background-color: #34b8fd;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 40rem;
+    height: 40rem;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.counter-container {
+    width: 90%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #34b8fd;
+}
+
+.answer-box {
+    width: 400px;
+    height: 50px;
+    border: 2px solid white;
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.answer-container {
+    width: 85%;
+    height: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p {
+    font-family: noto, sans-serif;
+    color: white; 
+}
+
+h1#question {
+    background-color: #34b8fd;
 }
