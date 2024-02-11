@@ -1,4 +1,4 @@
-let questions = [{
+const question = [{
     question: "Which player scored the most tries in the 2014 tournament?",
     option1: "Andrew Trimble",
     option2: "Johnny Sexton",
