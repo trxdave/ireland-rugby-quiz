@@ -114,7 +114,8 @@ function startQuiz(){
 }
 
 function showQuestion(){
-    let currentQuestion = questions[currentQuestionIndex];
+    resetState();
+    let currentQuestion = question[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
     
@@ -124,6 +125,13 @@ function showQuestion(){
         button.classList.add("answer-btn");
         answerButton.appendChild(button);
     });
+}
+
+function resetState(){
+    nextButton.style.display = "none";
+    while(answerButton.firstChild){
+        answerButton.removeChild(answerButton.firstChild);
+    }
 }
 
 startQuiz();

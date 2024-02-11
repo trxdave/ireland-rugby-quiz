@@ -135,5 +135,6 @@ h1#question {
     border-radius: 5px;
     border: 1px solid black;
     margin: 100px auto 0;
-    padding: 10px;
+    padding: 30px;
+    font-size: 18px;
 }
