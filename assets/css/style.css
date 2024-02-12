@@ -25,30 +25,45 @@ img.irfu-logo {
 
 button#play {
     border-radius: 10px;
-    text-decoration: none;
-    padding: 15px 32px 15px 32px;
+    width: 50%;
+    padding: 10px;
     background-color: #00744c;
     color: white;
-    font-weight: bold;
+    font-size: 30px;
     text-transform: uppercase;
-    margin-left: 440px;
-    margin-top: 100px;
-    position: absolute;
-    font-size: 50px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+button#play:hover {
+    background:white;
+    color: #00744c;
 }
 
 button#how-to-play {
     border-radius: 10px;
-    text-decoration: none;
-    padding: 15px 32px 15px 32px;
+    width: 50%;
+    padding: 10px;
     background-color: #00744c;
     color: white;
-    font-weight: bold;
+    font-size: 30px;
     text-transform: uppercase;
-    margin-left: 415px;
-    margin-top: 270px;
-    position: absolute;
-    font-size: 50px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button#how-to-play:hover {
+    background: white;
+    color: #00744c;
 }
 
 .footer {
@@ -105,7 +120,10 @@ button#how-to-play {
 
 p {
     font-family: noto, sans-serif;
-    color: black; 
+    color: black;
+    justify-content: center;
+    margin-top: 200px;
+    display: flex; 
 }
 
 .correct {
@@ -138,8 +156,4 @@ h1#question {
     margin: 100px auto 0;
     padding: 30px;
     font-size: 18px;
-}
-
-@media only screen and (max-width:320px) {
-    body{font-size: 12px;}
 }
