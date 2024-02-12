@@ -6,6 +6,8 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+/* header */
+
 h1 {
     text-align: center;
     color: black;
@@ -23,6 +25,8 @@ img.irfu-logo {
     border-radius: 10px;
 }
 
+/* Button */
+
 button#play {
     border-radius: 10px;
     width: 50%;
@@ -34,11 +38,14 @@ button#play {
     display: flex;
     cursor: pointer;
     justify-content: center;
-    text-decoration: none;
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
     margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
 }
 
 button#play:hover {
@@ -64,11 +71,6 @@ button#how-to-play {
 button#how-to-play:hover {
     background: white;
     color: #00744c;
-}
-
-.footer {
-    text-align: center;
-    font-size: 1rem;
 }
 
 /* Play Quiz */
@@ -102,6 +104,8 @@ button#how-to-play:hover {
     border-radius: 5px;
 }
 
+/* Answer Button */
+
 .answer-btn {
     background: white;
     color: black;
@@ -114,8 +118,8 @@ button#how-to-play:hover {
 }
 
 .answer-btn:hover:not([disabled]) {
-    background: rgb(32, 10, 231);
-    color: white;
+    background: white;
+    color: #00744c;
 }
 
 p {
