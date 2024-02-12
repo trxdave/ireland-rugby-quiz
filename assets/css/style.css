@@ -37,7 +37,7 @@ img.team-pic {
 button#play {
     border-radius: 10px;
     text-decoration: none;
-    padding: 35px 52px 35px 52px;
+    padding: 15px 32px 15px 32px;
     background-color: #00744c;
     color: white;
     font-weight: bold;
@@ -109,14 +109,22 @@ button#how-to-play {
     cursor: pointer;
 }
 
-.answer-btn:hover {
-    background: black;
-    color: #00744c
+.answer-btn:hover:not([disabled]) {
+    background: rgb(32, 10, 231);
+    color: white;
 }
 
 p {
     font-family: noto, sans-serif;
     color: black; 
+}
+
+.correct {
+    background: greenyellow;
+}
+
+.incorrect {
+    background: #f1807e
 }
 
 #next-button {
@@ -130,6 +138,10 @@ p {
     display: none;
 }
 
+.next-button {
+    cursor: no-drop;
+}
+
 h1#question {
     background-color: white;
     border-radius: 5px;
@@ -137,4 +149,8 @@ h1#question {
     margin: 100px auto 0;
     padding: 30px;
     font-size: 18px;
+}
+
+@media only screen and (max-width:320px) {
+    body{font-size: 12px;}
 }
