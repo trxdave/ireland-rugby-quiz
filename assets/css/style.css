@@ -29,7 +29,7 @@ img.irfu-logo {
 
 button#play {
     border-radius: 10px;
-    width: 50%;
+    width: 30%;
     padding: 10px;
     background-color: #00744c;
     color: white;
@@ -55,7 +55,7 @@ button#play:hover {
 
 button#how-to-play {
     border-radius: 10px;
-    width: 50%;
+    width: 30%;
     padding: 10px;
     background-color: #00744c;
     color: white;
@@ -160,4 +160,9 @@ h1#question {
     margin: 100px auto 0;
     padding: 30px;
     font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    
 }
