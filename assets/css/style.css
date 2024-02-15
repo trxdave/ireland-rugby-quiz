@@ -75,6 +75,7 @@ button#how-to-play:hover {
 }
 
 /* Play Quiz */
+
 #quiz {
     background-color: #00744c;
 }
@@ -127,7 +128,6 @@ p {
     font-family: noto, sans-serif;
     color: black;
     justify-content: center;
-    margin-top: 200px;
     display: flex; 
 }
 
@@ -163,6 +163,8 @@ h1#question {
     font-size: 18px;
 }
 
+/* Social Media */
+
 .soical-network {
     display: flex;
     flex-direction: row;
@@ -170,4 +172,24 @@ h1#question {
     align-content: center;
     justify-content: space-around;
     margin-top: 150px;
+}
+
+/* How to Play */
+
+.box {
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+    background-color: #00744c;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    text-align: center;
 }
