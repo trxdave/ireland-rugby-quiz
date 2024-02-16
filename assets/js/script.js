@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 const questionContainer = document.getElementById("quiz-container");
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-btn");
@@ -118,7 +119,7 @@ function showQuestion(){
     let currentQuestion = question[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     console.log(questionNo);
-    
+
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
     console.log(currentQuestion)
     currentQuestion.answer.forEach(answer => {
@@ -141,7 +142,7 @@ function resetState(){
 }
 
 function selectAnswer(e) {
-    const selectedBtn = e.target ;
+    const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
     if(isCorrect) {
         selectedBtn.classList.add("correct");
