@@ -138,8 +138,8 @@ function resetState(){
     }
 }
 
-function selectAnswer(d) {
-    const selectedBtn = d.target;
+function selectAnswer(target) {
+    const selectedBtn = target;
     const isCorrect = selectedBtn.dataset.correct === "true";
     if(isCorrect) {
         selectedBtn.classList.add("correct");
@@ -166,7 +166,7 @@ function showScore() {
 
 function handleNextButton() {
     currentQuestionIndex++;
-    if(currentQuestionIndex < questions.length) {
+    if(currentQuestionIndex < question.length) {
         showQuestion();
     } else {
         showScore();
@@ -174,7 +174,7 @@ function handleNextButton() {
     }
 
 nextButton.addEventListener("click", ()=>{
-    if(currentQuestionIndex < questions.length) {
+    if(currentQuestionIndex < question.length) {
         handleNextButton();
     } else {
         startQuiz();
