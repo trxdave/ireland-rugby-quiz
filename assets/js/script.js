@@ -1,4 +1,5 @@
 /* jshint esversion: 11 */
+
 const questionContainer = document.getElementById("quiz-container");
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-btn");
@@ -121,7 +122,8 @@ function showQuestion(){
     console.log(questionNo);
 
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
-    console.log(currentQuestion)
+    console.log(currentQuestion);
+
     currentQuestion.answer.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.option;
@@ -139,6 +141,7 @@ function resetState(){
     while(answerButton.firstChild){
         answerButton.removeChild(answerButton.firstChild);
     }
+    console.log(resetState);
 }
 
 function selectAnswer(e) {
@@ -158,22 +161,28 @@ function selectAnswer(e) {
     });
     nextButton.style.display = "block";
     }
-console.log()
+console.log();
 
-function showScore() {
-    resetState();
-    questionElement.innerHTML = 'You scored ${score} out of ${quest.length}!';
-    nextButton.innerHTML = "Play Again";
-    nextButton.style.display = "block";
-}
+function showScores() {
+    let gameOverHTML = "<h1>Result</h1>";
+    gameOverHTML += "<h2 id='score'> Your scores: ${quiz.score} </h2>";
+    const element = document.getElementById("quiz");
+    element.innerHTML = gameOverHTML;
+    if (!quiz) {
+        console.log("Quiz object not found.");
+        return;
+    }
+};
 
 function handleNextButton() {
     currentQuestionIndex++;
     if(currentQuestionIndex < question.length) {
         showQuestion();
     } else {
-        showScore();
+        showScores();
     }
+
+    console.log(handleNextButton);
     }
 
 nextButton.addEventListener("click", ()=>{

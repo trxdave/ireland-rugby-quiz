@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 const question = [{
     question: "Which player scored the most tries in the 2014 tournament?",
     option1: "Andrew Trimble",
