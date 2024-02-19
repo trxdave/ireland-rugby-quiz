@@ -31,15 +31,19 @@ Colour
 
 The colour selected for this quiz was specifically chosen for readability
 
+#00744c Green
+#030303 Black
+Background: White
+
 
 <h1>Credits</h1>
 
 Questions: https://www.sportsjoe.ie/rugby/quiz-well-know-irelands-history-six-nations-209369
 
-Learn Javascript: https://developer.mozilla.org/en-US/docs/Web/JavaScript and https://www.w3schools.com/js/default.asp
+Learn Javascript all the quiz: https://developer.mozilla.org/en-US/docs/Web/JavaScript and https://www.w3schools.com/js/default.asp
 
 E.target explanation: https://www.altcademy.com/blog/what-is-e-target-in-javascript/#:~:text=In%20JavaScript%2C%20e%20typically%20stands,click%20or%20a%20keystroke%2C%20happened
 
-youtube copy some: https://www.youtube.com/watch?v=PBcqGxrr9g8
+YouTube copy some that I am trying to learn new things, will be studying as I can: https://www.youtube.com/watch?v=PBcqGxrr9g8
 
 stack overflow how to get score show: https://stackoverflow.com/questions/63461753/how-can-i-make-show-score-show-a-text-message-if-certain-amount-of-scores-is-met
