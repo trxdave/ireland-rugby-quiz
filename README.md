@@ -32,8 +32,45 @@ Colour
 The colour selected for this quiz was specifically chosen for readability
 
 #00744c Green
+![alt text](<readme folder/image/00744c.png>)
 #030303 Black
+![alt text](<readme folder/image/030303.png>)
 Background: White
+![alt text](<readme folder/image/ffffff.png>)
+
+<h1>Features</h1>
+
+<h2>Home Pages</h2>
+
+The home page includes a welcome message and easy selection to Play Quiz or How to Play, and the below social network Ireland Rugby.
+
+<h2>Game Page</h2>
+
+The game page has the following features:
+
+<li> Showing header Ireland Rugby Quiz and logo.
+<li> Showing content of question and answer.
+<li> Showing click the answer colour red is incorrect, colour green is correct answer.
+<li> Showing below three social network Facebook Ireland Rugby, Instagram Ireland Rugby and website Ireland Rugby.
+
+<h2>End Page</h2>
+
+The End page is a result of the total score of the current game.
+
+<h1>Technologies used</h1>
+
+<li>HTML as structure language</li>
+<li>CSS as style language</li>
+<li>Javascript as dynamic functions language</li>
+<li>Font Awesome icon library for social links</li>
+<li>Google Fonts</li>
+<li>GitHub software hosting platform to keep project in a remote location</li>
+<li>GitPod as developer hosting platform</li>
+<li>Balsamiq wireframes</li>
+
+<h1>Testing and Validation</h1>
+
+
 
 
 <h1>Credits</h1>
