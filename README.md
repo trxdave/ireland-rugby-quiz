@@ -31,11 +31,11 @@ Colour
 
 The colour selected for this quiz was specifically chosen for readability
 
-#00744c Green
+
 ![alt text](<readme folder/image/00744c.png>)
-#030303 Black
+
 ![alt text](<readme folder/image/030303.png>)
-Background: White
+
 ![alt text](<readme folder/image/ffffff.png>)
 
 <h1>Features</h1>
@@ -72,7 +72,9 @@ The End page is a result of the total score of the current game.
 
 <h2>W3C Mark Up Validation</h2>
 
-<li>Home Page - 
+<li>Home Page - </li>
+<li>Play Quiz - </li>
+<li>How to Play - </li>
 
 <h2>W3C CSS Validation</h2>
 
