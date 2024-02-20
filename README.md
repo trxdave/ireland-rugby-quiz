@@ -70,7 +70,19 @@ The End page is a result of the total score of the current game.
 
 <h1>Testing and Validation</h1>
 
+<h2>W3C Mark Up Validation</h2>
 
+<li>Home Page - 
+
+<h2>W3C CSS Validation</h2>
+
+![alt text](<readme folder/image/W3C CSS Validation.png>)
+
+<h2>JSHint</h2>
+
+
+
+<h1>Bugs</h1>
 
 
 <h1>Credits</h1>
