@@ -5,6 +5,7 @@ const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-btn");
 const nextButton = document.getElementById("next-button");
 
+//* Questions
 const question = [{
     question: "Which player scored the most tries in the 2014 tournament?",
     answer: [
@@ -105,8 +106,11 @@ const question = [{
     },
 ];
 
+//* Score
 let currentQuestionIndex = 0;
 let score = 0;
+let message = 'Your score is ${score}';
+console.log(message); // Output: "Your score is 10"
 
 function startQuiz(){
     currentQuestionIndex = 0;
@@ -114,6 +118,8 @@ function startQuiz(){
     nextButton.innerHTML = "Next";
     showQuestion();
 }
+
+//* Show Question
 
 function showQuestion(){
     resetState();
@@ -124,6 +130,7 @@ function showQuestion(){
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
     console.log(currentQuestion);
 
+//* Show Answer
     currentQuestion.answer.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.option;
@@ -144,6 +151,8 @@ function resetState(){
     console.log(resetState);
 }
 
+//* Show Answer correct or incorrect
+
 function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -163,17 +172,20 @@ function selectAnswer(e) {
     }
 console.log();
 
+//* Show Scores
 function showScores() {
-    let gameOverHTML = "<h1>Result</h1>";
-    gameOverHTML += "<h2 id='score'> Your scores: ${quiz.score} </h2>";
+    var gameOverHTML = "<h1>Congraltions your Result!!</h1>"
+    gameOverHTML += "<h2 id='score'> Your scores: " + score + "</h2>";
     const element = document.getElementById("quiz");
     element.innerHTML = gameOverHTML;
+
     if (!quiz) {
-        console.log("Quiz object not found.");
+        console.log("Quiz object or score not found.");
         return;
     }
 };
 
+//* Next Button
 function handleNextButton() {
     currentQuestionIndex++;
     if(currentQuestionIndex < question.length) {
@@ -194,6 +206,3 @@ nextButton.addEventListener("click", ()=>{
 });
 
 startQuiz();
-
-
-
