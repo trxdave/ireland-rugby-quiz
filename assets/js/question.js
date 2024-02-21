@@ -1,89 +1,101 @@
 /* jshint esversion: 11 */
-const question = [{
+//* Questions
+window.MyQuestion = [{
     question: "Which player scored the most tries in the 2014 tournament?",
-    option1: "Andrew Trimble",
-    option2: "Johnny Sexton",
-    option3: "Rob Kearney",
-    answer: "2",
+    answer: [
+    {option: "Andrew Trimble", correct: false},
+    {option: "Johnny Sexton", correct: true},
+    {option: "Rob Kearney", correct: false},
+    {option: "Ronan O'Gara", correct: false},
+    ]
 },
     {   
     question: "Where did Ireland finish on the table in 2005?",
-    option1: "2nd",
-    option2: "3rd",
-    option3: "4th",
-    option4: "1st",
-    answer: "2",
-    },
+    answer: [
+    {option: "2nd", correct: false},
+    {option: "3rd", correct: true},
+    {option: "4th", correct: false},
+    {option: "1st", correct: false},
+    ]
+},
 
     {
     question: "What was the final score of Ireland's Grand Slam winning match against Wales in 2009?",
-    option1: "14-16",
-    option2: "16-18",
-    option3: "15-17",
-    option4: "19-21",
-    answer: "3",
-    },
+    answer: [
+    {option: "14-16", correct: false},
+    {option: "16-18", correct: false}, 
+    {option: "15-17", correct: true},
+    {option: "19-21", correct: false},
+    ]
+},
 
     {
     question: "Who did Ireland play in their very first Six Nations game back in 2000?",
-    option1: "Scotland",
-    option2: "Wales",
-    option3: "France",
-    option4: "England",
-    answer: "4",
+    answer: [
+    {option: "Scotland", correct: false},
+    {option: "Wales", correct: false},
+    {option: "France", correct: false},
+    {option: "England", correct: true},
+    ]
     },
 
     {
     question: "Who were Ireland playing in the 2007 final round before France denied them a championship on points difference?",
-    option1: "Italy",
-    option2: "Scotland",
-    option3: "Wales",
-    option4: "France",
-    answer: "1",
+    answer: [
+    {option: "Italy", correct: true},
+    {option: "Scotland", correct: false},
+    {option: "Wales", correct: false},
+    {option: "France", correct: false},
+    ]
     },
 
     {
     question: "Who scored Ireland's only try when they beat England in Twickenham in 2004?",
-    option1: "Brian O'Driscoll",
-    option2: "Girvan Dempsey",
-    option3: "Shane Horgan",
-    answer: "2",
+    answer: [
+    {option: "Brian O'Driscoll", correct: false},
+    {option: "Girvan Dempsey", correct: true},
+    {option: "Shane Horgan", correct: false},
+    {option: "Paul O'Connell", correct: false},
+    ]
     },
 
     {
     question: "How many games did Ireland win in the 2008 tournament?",
-    option1: "Two",
-    option2: "Three",
-    option3: "Four",
-    option4: "One",
-    answer: "1"
+    answer: [
+    {option: "Two", correct: true},
+    {option: "Three", correct: false},
+    {option: "Four", correct: false},
+    {option: "One", correct: false},
+    ]
     },
 
     {
     question: "Who ended up playing on the wing against Italy in 2013?",
-    option1: "Sean Cronin",
-    option2: "Peter O'Mahony",
-    option3: "Sean O'Brien",
-    option4: "Paul O'Connell",
-    answer: "2",
+    answer: [
+    {option: "Sean Cronin", correct: false},
+    {option: "Peter O'Mahony", correct: true},
+    {option: "Sean O'Brien", correct: false},
+    {option: "Paul O'Connell", correct: false},
+    ]
     },
 
     {
     question: "Who won Player of The Championship in 2010?",
-    option1: "Tommy Bowe",
-    option2: "Paul O'Connell",
-    option3: "Brian O'Driscoll",
-    option4: "Johnny Sexton",
-    answer: "1",
+    answer: [
+    {option: "Tommy Bowe", correct: true},
+    {option: "Paul O'Connell", correct: false},
+    {option: "Brian O'Driscoll", correct: false},
+    {option: "Johnny Sexton", correct: false},
+    ]
     },
 
     {
     question: "In what was Ireland's game against France postponed due to frost?",
-    option1: "2010",
-    option2: "2011",
-    option3: "2012",
-    option4: "2009",
-    answer: "3",
+    answer: [
+    {option: "2010", correct: false},
+    {option: "2011", correct: false},
+    {option: "2012", correct: true},
+    {option: "2009", correct: false},
+    ]
     },
 ];
-

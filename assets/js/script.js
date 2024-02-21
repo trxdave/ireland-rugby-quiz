@@ -117,6 +117,7 @@ function startQuiz(){
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
+    loadNextQuestion();
 }
 
 //* Show Question
@@ -174,16 +175,16 @@ console.log();
 
 //* Show Scores
 function showScores() {
-    var gameOverHTML = "<h1>Congraltions your Result!!</h1>"
+    var gameOverHTML = "<h1>Congraltions your Result!!</h1>";
     gameOverHTML += "<h2 id='score'> Your scores: " + score + "</h2>";
     const element = document.getElementById("quiz");
     element.innerHTML = gameOverHTML;
 
-    if (!quiz) {
+    if (!question) {
         console.log("Quiz object or score not found.");
         return;
     }
-};
+}
 
 //* Next Button
 function handleNextButton() {

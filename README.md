@@ -18,6 +18,8 @@ Before coding the game, I used Balsamic to create wireframes to get an idea of h
 
 ![alt text](<readme folder/image/Index.png>)
 ![alt text](<readme folder/image/Playquiz.png>)
+![alt text](<readme folder/image/How to Play.png>)
+![alt text](<readme folder/image/Result.png>)
 
 <h1>Built with</h1>
 
