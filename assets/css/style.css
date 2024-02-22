@@ -49,6 +49,14 @@ a {
     text-decoration: none;
 }
 
+.image-team {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 80px;
+}
+
 button#play:hover {
     background:white;
     color: #00744c;
