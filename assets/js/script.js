@@ -117,7 +117,9 @@ function startQuiz(){
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
-    loadNextQuestion();
+    handleNextButton();
+
+    console.log(startQuiz);
 }
 
 //* Show Question
@@ -179,6 +181,8 @@ function showScores() {
     gameOverHTML += "<h2 id='score'> Your scores: " + score + "</h2>";
     const element = document.getElementById("quiz");
     element.innerHTML = gameOverHTML;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block";
 
     if (!question) {
         console.log("Quiz object or score not found.");
@@ -199,11 +203,11 @@ function handleNextButton() {
     }
 
 nextButton.addEventListener("click", ()=>{
-    if(currentQuestionIndex < question.length) {
-        handleNextButton();
-    } else {
-        startQuiz();
-    }
-});
+        if (currentQuestionIndex < question.length) {
+            handleNextButton();
+        } else {
+            startQuiz();
+        }
+    });
 
 startQuiz();

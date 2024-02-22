@@ -204,3 +204,38 @@ h1#question {
     flex-wrap: wrap;
     text-align: center;
 }
+
+/* For Screens 600px or smaller */
+@media (max-width: 600px) {
+    button#play {
+        border-radius: 10px;
+        width: 30%;
+        padding: 10px;
+        background-color: #00744c;
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        margin-bottom: 50px; 
+    }
+
+    button#how-to-play {
+        border-radius: 10px;
+        width: 30%;
+        padding: 10px;
+        background-color: #00744c;
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

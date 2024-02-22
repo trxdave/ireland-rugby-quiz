@@ -114,6 +114,6 @@ Learn Javascript all the quiz: https://developer.mozilla.org/en-US/docs/Web/Java
 
 E.target explanation: https://www.altcademy.com/blog/what-is-e-target-in-javascript/#:~:text=In%20JavaScript%2C%20e%20typically%20stands,click%20or%20a%20keystroke%2C%20happened
 
-YouTube copy some that I am trying to learn new things, will be studying as I can: https://www.youtube.com/watch?v=PBcqGxrr9g8
+YouTube copy some but different wording that I am trying to learn new things, will be studying as I can: https://www.youtube.com/watch?v=PBcqGxrr9g8
 
 stack overflow how to get score show: https://stackoverflow.com/questions/63461753/how-can-i-make-show-score-show-a-text-message-if-certain-amount-of-scores-is-met
