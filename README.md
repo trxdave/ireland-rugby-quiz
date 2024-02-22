@@ -2,7 +2,7 @@
 
 View the live project here: https://trxdave.github.io/ireland-rugby-quiz/
 
-![alt text](<readme folder/image/responsive ireland rugby quiz.png>)
+![alt text](<readme folder/responsive/responsive ireland rugby quiz.png>)
 
 <h1>Introduction</h1>
 Welcome to the Ireland Rugby Quiz, where your knowledge of Irish rugby will be put to the test! This quiz is designed to challenge your understanding of Ireland's rich rugby history, legendary players, memorable moments, and the intricacies of the sport in the Emerald Isle.
@@ -16,10 +16,10 @@ So, buckle up, get ready for a journey through the highs and lows of Irish rugby
 <h1>Wireframes</h1>
 Before coding the game, I learn how to use Balsamic and start to create wireframes to get an idea of how I wanted to create a realistic and achievable design.
 
-![alt text](<readme folder/image/Index.png>)
-![alt text](<readme folder/image/Playquiz.png>)
-![alt text](<readme folder/image/How to Play.png>)
-![alt text](<readme folder/image/Result.png>)
+![alt text](<readme folder/wireframes/Index.png>)
+![alt text](<readme folder/wireframes/Playquiz.png>)
+![alt text](<readme folder/wireframes/How to Play.png>)
+![alt text](<readme folder/wireframes/Result.png>)
 
 <h1>Built with</h1>
 
@@ -34,11 +34,11 @@ Colour
 The colour selected for this quiz was specifically chosen for readability
 
 
-![alt text](<readme folder/image/00744c.png>)
+![alt text](<readme folder/color/00744c.png>)
 
-![alt text](<readme folder/image/030303.png>)
+![alt text](<readme folder/color/030303.png>)
 
-![alt text](<readme folder/image/ffffff.png>)
+![alt text](<readme folder/color/ffffff.png>)
 
 <h1>Features</h1>
 
@@ -52,29 +52,29 @@ The game page has the following features:
 
 <li>Showing header Ireland Rugby Quiz and logo.</li>
 
-![alt text](<readme folder/image/Header.jpg>)
+![alt text](<readme folder/layout/Header.jpg>)
 
 <li>Showing content of question and click the answer.</li>
 
-![alt text](<readme folder/image/Question and Answer.jpg>)
+![alt text](<readme folder/layout/Question and Answer.jpg>)
 
 <li>Showing click the answer colour red is incorrect, colour green is correct answer.</li>
 
 Green Answer - Correct
-![alt text](<readme folder/image/Green Correct.png>)
+![alt text](<readme folder/layout/Green Correct.png>)
 
 Red Answer - Incorrect
-![alt text](<readme folder/image/Red Incorrect.jpg>)
+![alt text](<readme folder/layout/Red Incorrect.jpg>)
 
 <li>Showing below three social network Facebook Ireland Rugby, Instagram Ireland Rugby and website Ireland Rugby.</li>
 
-![alt text](<readme folder/image/Footer.jpg>)
+![alt text](<readme folder/layout/Footer.jpg>)
 
 <h2>End Page</h2>
 
 The End page is a result of the total score of the current game.
 
-![alt text](<readme folder/image/showscore.jpg>)
+![alt text](<readme folder/layout/showscore.jpg>)
 
 <h1>Technologies used</h1>
 
@@ -97,7 +97,7 @@ The End page is a result of the total score of the current game.
 
 <h2>W3C CSS Validation</h2>
 
-![alt text](<readme folder/image/W3C CSS Validation.png>)
+![alt text](<readme folder/validation/W3C CSS Validation.png>)
 
 <h2>JSHint</h2>
 
