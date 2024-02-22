@@ -105,6 +105,10 @@ The End page is a result of the total score of the current game.
 
 <h1>Bugs</h1>
 
+I have fixed bug in issues GitHub. 
+![alt text](<readme folder/bug/bug.jpg>)
+
+
 
 <h1>Credits</h1>
 
