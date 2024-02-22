@@ -14,7 +14,7 @@ This quiz will cover a range of topics, including the team's achievements, iconi
 So, buckle up, get ready for a journey through the highs and lows of Irish rugby, and let's see how well you know the game on the Emerald Isle!
 
 <h1>Wireframes</h1>
-Before coding the game, I used Balsamic to create wireframes to get an idea of how I wanted to create a realistic and achievable design.
+Before coding the game, I learn how to use Balsamic and start to create wireframes to get an idea of how I wanted to create a realistic and achievable design.
 
 ![alt text](<readme folder/image/Index.png>)
 ![alt text](<readme folder/image/Playquiz.png>)
@@ -50,14 +50,31 @@ The home page includes a welcome message and easy selection to Play Quiz or How 
 
 The game page has the following features:
 
-<li> Showing header Ireland Rugby Quiz and logo.
-<li> Showing content of question and answer.
-<li> Showing click the answer colour red is incorrect, colour green is correct answer.
-<li> Showing below three social network Facebook Ireland Rugby, Instagram Ireland Rugby and website Ireland Rugby.
+<li>Showing header Ireland Rugby Quiz and logo.</li>
+
+![alt text](<readme folder/image/Header.jpg>)
+
+<li>Showing content of question and click the answer.</li>
+
+![alt text](<readme folder/image/Question and Answer.jpg>)
+
+<li>Showing click the answer colour red is incorrect, colour green is correct answer.</li>
+
+Green Answer - Correct
+![alt text](<readme folder/image/Green Correct.png>)
+
+Red Answer - Incorrect
+![alt text](<readme folder/image/Red Incorrect.jpg>)
+
+<li>Showing below three social network Facebook Ireland Rugby, Instagram Ireland Rugby and website Ireland Rugby.</li>
+
+![alt text](<readme folder/image/Footer.jpg>)
 
 <h2>End Page</h2>
 
 The End page is a result of the total score of the current game.
+
+![alt text](<readme folder/image/showscore.jpg>)
 
 <h1>Technologies used</h1>
 
