@@ -1,6 +1,7 @@
 /* jshint esversion: 11 */
 //* Questions
-window.MyQuestion = [{
+window.MyQuestion = [
+    {
     question: "Which player scored the most tries in the 2014 tournament?",
     answer: [
     {option: "Andrew Trimble", correct: false},
@@ -9,6 +10,7 @@ window.MyQuestion = [{
     {option: "Ronan O'Gara", correct: false},
     ]
 },
+
     {   
     question: "Where did Ireland finish on the table in 2005?",
     answer: [

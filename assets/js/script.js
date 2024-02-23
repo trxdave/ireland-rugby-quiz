@@ -1,12 +1,11 @@
 /* jshint esversion: 11 */
 
-const questionContainer = document.getElementById("quiz-container");
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-btn");
 const nextButton = document.getElementById("next-button");
 
 //* Questions
-const question = [{
+const question = [ {
     question: "Which player scored the most tries in the 2014 tournament?",
     answer: [
     {option: "Andrew Trimble", correct: false},
@@ -173,7 +172,7 @@ function selectAnswer(e) {
     });
     nextButton.style.display = "block";
     }
-console.log();
+console.log(selectAnswer);
 
 //* Show Scores
 function showScores() {
