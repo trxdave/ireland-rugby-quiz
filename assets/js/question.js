@@ -2,7 +2,7 @@
 
 const questionElement = document.getElementById("question");
 
-//* Questions
+/* Questions */
 const question = [
     {
     question: "Which player scored the most tries in the 2014 tournament?",
