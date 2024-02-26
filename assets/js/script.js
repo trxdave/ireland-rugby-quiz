@@ -3,7 +3,6 @@
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-btn");
 const nextButton = document.getElementById("next-button");
-const questionContainer = document.getElementById("quiz-container");
 
 //* Questions
 const question = [ {
