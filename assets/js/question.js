@@ -1,6 +1,6 @@
 /* jshint esversion: 11 */
 //* Questions
-window.MyQuestion = [
+MyQuestion = [
     {
     question: "Which player scored the most tries in the 2014 tournament?",
     answer: [

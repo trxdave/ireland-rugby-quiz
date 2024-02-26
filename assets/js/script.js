@@ -3,6 +3,7 @@
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-btn");
 const nextButton = document.getElementById("next-button");
+const questionContainer = document.getElementById("quiz-container");
 
 //* Questions
 const question = [ {
@@ -105,12 +106,39 @@ const question = [ {
     },
 ];
 
-//* Score
-let currentQuestionIndex = 0;
-let score = 0;
-let message = 'Your score is ${score}';
-console.log(message); // Output: "Your score is 10"
+//* Seconds
 
+let timeLeft = 60;
+let score = 0;
+
+function updateTimeAndScore() {
+  document.getElementById('current-time').textContent = timeLeft;
+  document.getElementById('current-score').textContent = score;
+}
+
+function startCountdown() {
+  timeLeft = 60;
+  updateTimeAndScore();
+  const timer = setInterval(() => {
+    timeLeft--;
+    updateTimeAndScore();
+
+    if (timeLeft === 0) {
+      clearInterval(timer);
+      alert('Time is up!');
+      
+      location.reload();
+    }
+  }, 1000);
+}
+
+document.getElementById('next-button').addEventListener('click', () => {
+  
+});
+
+startCountdown();
+
+//* Start Quiz
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
