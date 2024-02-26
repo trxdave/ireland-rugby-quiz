@@ -4,7 +4,7 @@ View the live project here: https://trxdave.github.io/ireland-rugby-quiz/
 
 ![alt text](<readme folder/responsive/responsive ireland rugby quiz.png>)
 
-<h1>Introduction</h1>
+# Introduction #
 Welcome to the Ireland Rugby Quiz, where your knowledge of Irish rugby will be put to the test! This quiz is designed to challenge your understanding of Ireland's rich rugby history, legendary players, memorable moments, and the intricacies of the sport in the Emerald Isle.
 
 Ireland has a proud rugby tradition, with a passionate fan base and a team that has achieved success on both the national and international stages. From the historic victories in the Six Nations to standout performances in the Rugby World Cup, Ireland has left an indelible mark on the rugby world.
@@ -13,7 +13,7 @@ This quiz will cover a range of topics, including the team's achievements, iconi
 
 So, buckle up, get ready for a journey through the highs and lows of Irish rugby, and let's see how well you know the game on the Emerald Isle!
 
-<h1>Wireframes</h1>
+# Wireframes # 
 Before coding the game, I learn how to use Balsamic and start to create wireframes to get an idea of how I wanted to create a realistic and achievable design.
 
 ![alt text](<readme folder/wireframes/Index.png>)
@@ -21,13 +21,13 @@ Before coding the game, I learn how to use Balsamic and start to create wirefram
 ![alt text](<readme folder/wireframes/How to Play.png>)
 ![alt text](<readme folder/wireframes/Result.png>)
 
-<h1>Built with</h1>
+# Built with #
 
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
+*HTML
+*CSS
+*JavaScript
 
-<h1>Design</h1>
+# Design #
 
 Colour
 
@@ -40,25 +40,25 @@ The colour selected for this quiz was specifically chosen for readability
 
 ![alt text](<readme folder/color/ffffff.png>)
 
-<h1>Features</h1>
+# Features #
 
-<h2>Home Pages</h2>
+## Home Pages ##
 
 The home page includes a welcome message and easy selection to Play Quiz or How to Play, and the below social network Ireland Rugby.
 
-<h2>Game Page</h2>
+## Game Page ##
 
 The game page has the following features:
 
-<li>Showing header Ireland Rugby Quiz and logo.</li>
+* Showing header Ireland Rugby Quiz and logo.
 
 ![alt text](<readme folder/layout/Header.jpg>)
 
-<li>Showing content of question and click the answer.</li>
+* Showing content of question and click the answer.
 
 ![alt text](<readme folder/layout/Question and Answer.jpg>)
 
-<li>Showing click the answer colour red is incorrect, colour green is correct answer.</li>
+* Showing click the answer colour red is incorrect, colour green is correct answer.
 
 Green Answer - Correct
 ![alt text](<readme folder/layout/Green Correct.png>)
@@ -66,51 +66,51 @@ Green Answer - Correct
 Red Answer - Incorrect
 ![alt text](<readme folder/layout/Red Incorrect.jpg>)
 
-<li>Showing below three social network Facebook Ireland Rugby, Instagram Ireland Rugby and website Ireland Rugby.</li>
+* Showing below three social network Facebook Ireland Rugby, Instagram Ireland Rugby and website Ireland Rugby.
 
 ![alt text](<readme folder/layout/Footer.jpg>)
 
-<h2>End Page</h2>
+## End Page ##
 
 The End page is a result of the total score of the current game.
 
 ![alt text](<readme folder/layout/showscore.jpg>)
 
-<h1>Technologies used</h1>
+# Technologies used #
 
-<li>HTML as structure language</li>
-<li>CSS as style language</li>
-<li>Javascript as dynamic functions language</li>
-<li>Font Awesome icon library for social links</li>
-<li>Google Fonts</li>
-<li>GitHub software hosting platform to keep project in a remote location</li>
-<li>GitPod as developer hosting platform</li>
-<li>Balsamiq wireframes</li>
+* HTML as structure language
+* CSS as style language
+* Javascript as dynamic functions language
+* Font Awesome icon library for social links
+* Google Fonts
+* GitHub software hosting platform to keep project in a remote location
+* GitPod as developer hosting platform
+* Balsamiq wireframes
 
-<h1>Testing and Validation</h1>
+# Testing and Validation #
 
-<h2>W3C Mark Up Validation</h2>
+## W3C Mark Up Validation ##
 
-<li>Home Page - </li>
-<li>Play Quiz - </li>
-<li>How to Play - </li>
+* Home Page - 
+* Play Quiz - 
+* How to Play - 
 
-<h2>W3C CSS Validation</h2>
+## W3C CSS Validation ##
 
 ![alt text](<readme folder/validation/W3C CSS Validation.png>)
 
-<h2>JSHint</h2>
+## JSHint ##
 
 
 
-<h1>Bugs</h1>
+# Bugs #
 
 I have fixed bug in issues GitHub. 
 ![alt text](<readme folder/bug/bug.jpg>)
 
 
 
-<h1>Credits</h1>
+# Credits #
 
 Questions: https://www.sportsjoe.ie/rugby/quiz-well-know-irelands-history-six-nations-209369
 
