@@ -1,6 +1,9 @@
 /* jshint esversion: 11 */
+
+const questionElement = document.getElementById("question");
+
 //* Questions
-MyQuestion = [
+const question = [
     {
     question: "Which player scored the most tries in the 2014 tournament?",
     answer: [
