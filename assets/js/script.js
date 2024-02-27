@@ -54,10 +54,10 @@ function showQuestion(){
     let questionNo = currentQuestionIndex + 0;
     console.log(questionNo);
 
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+    questionElement.innerHTML = questionNo + " . " + currentQuestion.question;
     console.log(currentQuestion);
 
-    //* Show Answer
+//* Show Answer
     currentQuestion.answer.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.option;

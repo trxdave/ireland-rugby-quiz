@@ -56,15 +56,15 @@ The game page has the following features:
 
 * Showing content of question and click the answer.
 
-![alt text](<readme folder/layout/Question and Answer.jpg>)
+![alt text](<readme folder/layout/questionanswer.png>)
 
 * Showing click the answer colour red is incorrect, colour green is correct answer.
 
 Green Answer - Correct
-![alt text](<readme folder/layout/Green Correct.png>)
+![alt text](<readme folder/layout/greencorrect.png>)
 
-Red Answer - Incorrect
-![alt text](<readme folder/layout/Red Incorrect.jpg>)
+Red Answer - Incorrect and showing green is correct
+![alt text](<readme folder/layout/redincorrect.png>)
 
 * Showing below three social network Facebook Ireland Rugby, Instagram Ireland Rugby and website Ireland Rugby.
 
