@@ -51,13 +51,13 @@ function startQuiz(){
 function showQuestion(){
     resetState();
     let currentQuestion = question[currentQuestionIndex];
-    let questionNo = currentQuestionIndex + 1;
+    let questionNo = currentQuestionIndex + 0;
     console.log(questionNo);
 
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
     console.log(currentQuestion);
 
-//* Show Answer
+    //* Show Answer
     currentQuestion.answer.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.option;
