@@ -3,7 +3,7 @@
 const answerButton = document.getElementById("answer-btn");
 const nextButton = document.getElementById("next-button");
 
-//* Seconds
+//* Seconds and Score *//
 
 let timeLeft = 60;
 let score = 0;
@@ -35,7 +35,8 @@ document.getElementById('next-button').addEventListener('click', () => {
 
 startCountdown();
 
-//* Start Quiz
+//* Start Quiz *//
+
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
@@ -46,7 +47,7 @@ function startQuiz(){
     console.log(startQuiz);
 }
 
-//* Show Question
+//* Show Question *//
 
 function showQuestion(){
     resetState();
@@ -57,7 +58,8 @@ function showQuestion(){
     questionElement.innerHTML = questionNo + " . " + currentQuestion.question;
     console.log(currentQuestion);
 
-//* Show Answer
+//* Show Answer *//
+
     currentQuestion.answer.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.option;
@@ -78,7 +80,7 @@ function resetState(){
     console.log(resetState);
 }
 
-//* Show Answer correct or incorrect
+//* Show Answer correct or incorrect *//
 
 function selectAnswer(e) {
     const selectedBtn = e.target;
@@ -99,7 +101,8 @@ function selectAnswer(e) {
     }
 console.log(selectAnswer);
 
-//* Show Scores
+//* Show Scores *//
+
 function showScores() {
     var gameOverHTML = "<h1>Congraltions your Result!!</h1>";
     gameOverHTML += "<h2 id='score'> Your scores: " + score + "</h2>";
@@ -114,7 +117,8 @@ function showScores() {
     }
 }
 
-//* Next Button
+//* Next Button *//
+
 function handleNextButton() {
     currentQuestionIndex++;
     if(currentQuestionIndex < question.length) {
