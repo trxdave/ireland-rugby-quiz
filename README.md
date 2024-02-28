@@ -64,7 +64,7 @@ The colour selected for this quiz was specifically chosen for readability
 
 ## Home Pages ##
 
-The home page includes a welcome message and easy selection to Play Quiz or How to Play, and the below social network Ireland Rugby.
+The home page includes a welcome message and easy selection to Play Quiz or How to Play, and the below social network Ireland Rugby and Ireland Rugby Website.
 
 ![alt text](<readme folder/layout/homepage.png>)
 
@@ -103,7 +103,7 @@ The End page is a result of the total score of the current game.
 * HTML as structure language
 * CSS as style language
 * Javascript as dynamic functions language
-* Font Awesome icon library for social links
+* Font Awesome icon library for social links and globe for website
 * Google Fonts
 * GitHub software hosting platform to keep project in a remote location
 * GitPod as developer hosting platform
