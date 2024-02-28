@@ -2,6 +2,26 @@
 
 View the live project here: https://trxdave.github.io/ireland-rugby-quiz/
 
+
+# Table of Contents #
+
+* <a href="#introduction">Introduction</a>
+* <a href="#responsive-design">Responsive Design</a>
+* <a href="#wireframes">Wireframes</a>
+* <a href="#built-with">Built With</a>
+* <a href="#design">Design</a>
+* <a href="#features">Features</a>
+    * <a href="#home-pages">Home Pages</a>
+    * <a href="#game-page">Game Pages</a>
+    * <a href="#end-page">End Game</a>
+* <a href="#technologies-used">Technologies Used</a>
+* <a href="#testing-and-validation">Testing and Validation</a>
+    * <a href="#w3c-mark-up-validation">W3C Mark Up Validation</a>
+    * <a href="#w3c-css-validation">W3C CSS Validation</a>
+    * <a href="#jshint">JSHint</a>
+* <a href="#bugs">Bugs</a>
+* <a href="#credits">Credits</a>
+
 # Introduction #
 Welcome to the Ireland Rugby Quiz, where your knowledge of Irish rugby will be put to the test! This quiz is designed to challenge your understanding of Ireland's rich rugby history, legendary players, memorable moments, and the intricacies of the sport in the Emerald Isle.
 
@@ -56,11 +76,11 @@ The game page has the following features:
 
 ![alt text](<readme folder/layout/Header.jpg>)
 
-* Showing content of question and click the answer.
+* Showing content of question and click the answer. Showing score and countdown 60 seconds.
 
 ![alt text](<readme folder/layout/questionanswer.png>)
 
-* Showing click the answer colour red is incorrect, colour green is correct answer.
+* Showing click the answer colour red is incorrect, the colour green is the correct answer.
 
 Green Answer - Correct
 ![alt text](<readme folder/layout/greencorrect.png>)
