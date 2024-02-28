@@ -2,8 +2,6 @@
 
 View the live project here: https://trxdave.github.io/ireland-rugby-quiz/
 
-![alt text](<readme folder/responsive/responsive ireland rugby quiz.png>)
-
 # Introduction #
 Welcome to the Ireland Rugby Quiz, where your knowledge of Irish rugby will be put to the test! This quiz is designed to challenge your understanding of Ireland's rich rugby history, legendary players, memorable moments, and the intricacies of the sport in the Emerald Isle.
 
@@ -11,9 +9,16 @@ Ireland has a proud rugby tradition, with a passionate fan base and a team that 
 
 This quiz will cover a range of topics, including the team's achievements, iconic players, memorable matches, and the nuances of the sport. Whether you're a casual fan or a die-hard supporter, this quiz aims to both entertain and test your knowledge of Ireland's rugby prowess.
 
+# Responsive Design #
+
+Using Am I Responsive - website https://ui.dev/amiresponsive
+
+![alt text](<readme folder/responsive/amiresponvie.png>)
+
 So, buckle up, get ready for a journey through the highs and lows of Irish rugby, and let's see how well you know the game on the Emerald Isle!
 
 # Wireframes # 
+
 Before coding the game, I learn how to use Balsamic and start to create wireframes to get an idea of how I wanted to create a realistic and achievable design.
 
 ![alt text](<readme folder/wireframes/Index.png>)
@@ -23,9 +28,9 @@ Before coding the game, I learn how to use Balsamic and start to create wirefram
 
 # Built with #
 
-*HTML
-*CSS
-*JavaScript
+* HTML
+* CSS
+* JavaScript
 
 # Design #
 
@@ -33,18 +38,15 @@ Colour
 
 The colour selected for this quiz was specifically chosen for readability
 
-
-![alt text](<readme folder/color/00744c.png>)
-
-![alt text](<readme folder/color/030303.png>)
-
-![alt text](<readme folder/color/ffffff.png>)
+![alt text](<readme folder/color/colours.png>)
 
 # Features #
 
 ## Home Pages ##
 
 The home page includes a welcome message and easy selection to Play Quiz or How to Play, and the below social network Ireland Rugby.
+
+![alt text](<readme folder/layout/homepage.png>)
 
 ## Game Page ##
 
