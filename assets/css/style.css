@@ -28,7 +28,7 @@ img.irfu-logo {
 
 /* Button */
 
-button#play {
+#home-btn {
     border-radius: 10px;
     width: 30%;
     padding: 10px;
@@ -43,10 +43,8 @@ button#play {
     margin-right: auto;
     margin-top: 100px;
     margin-bottom: 50px;
-}
-
-a {
     text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .image-team {
@@ -62,7 +60,7 @@ button#play:hover {
     color: #00744c;
 }
 
-button#how-to-play {
+#how-to-py {
     border-radius: 10px;
     width: 30%;
     padding: 10px;
@@ -75,6 +73,8 @@ button#how-to-play {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
+    
 }
 
 button#how-to-play:hover {
@@ -166,13 +166,13 @@ p {
     cursor: no-drop;
 }
 
-h1#question {
+h2#question {
     background-color: white;
     border-radius: 5px;
     border: 1px solid black;
     margin: 0px auto 0;
     padding: 30px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 /* Social Media */
@@ -239,4 +239,5 @@ h1#question {
         margin-left: auto;
         margin-right: auto;
     }
+
 }

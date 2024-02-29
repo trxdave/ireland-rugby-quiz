@@ -113,8 +113,8 @@ The End page is a result of the total score of the current game.
 
 ## W3C Mark Up Validation ##
 
-* Home Page - 
-* Play Quiz - 
+* Home Page - ![alt text](<readme folder/validation/w3c mark up home.png>)
+* Play Quiz - ![alt text](<readme folder/validation/w3c mark up playquiz.jpg>)
 * How to Play - 
 
 ## W3C CSS Validation ##
