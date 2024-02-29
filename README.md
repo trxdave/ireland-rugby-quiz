@@ -23,6 +23,7 @@ View the live project here: https://trxdave.github.io/ireland-rugby-quiz/
     * <a href="#w3c-css-validation">W3C CSS Validation</a>
     * <a href="#jshint">JSHint</a>
 * <a href="#bugs">Bugs</a>
+* <a href="#deployment">Deployment</a>
 * <a href="#credits">Credits</a>
 
 # Introduction #
@@ -67,7 +68,7 @@ The colour selected for this quiz was specifically chosen for readability
 
 ## Logo ##
 
-Logo go back to homepage.
+There is a link for the homepage on the logo. Click on Logo to go back to the homepage.
 
 ![alt text](assets/images/irfu-logo.png)
 
@@ -85,17 +86,23 @@ The game page has the following features:
 
 ![alt text](<readme folder/layout/Header.jpg>)
 
-* Showing content of question and click the answer. Showing score and countdown 60 seconds.
+* Showing the content of the question and clicking the answer. Showing score in real-time as they answer questions and countdown 60 seconds.
 
 ![alt text](<readme folder/layout/questionanswer.png>)
 
 * Showing click the answer colour red is incorrect, the colour green is the correct answer.
 
-Green Answer - Correct
+* Green Answer - Correct
+
 ![alt text](<readme folder/layout/greencorrect.png>)
 
-Red Answer - Incorrect and showing green is correct
+* Red Answer - if you get Incorrect will be red and showing where is the correct answer in green.
+
 ![alt text](<readme folder/layout/redincorrect.png>)
+
+* Next Button - Click next for next question
+
+![alt text](<readme folder/layout/next.png>)
 
 ## Footer ##
 
@@ -122,6 +129,8 @@ The End page is a result of the total score of the current game.
 
 # Testing and Validation #
 
+I tested the Ireland Rugby Quiz and validated it with Lighthouse, W3C Mark Up Validation, W3C CSS Validation, JSHint and Bugs.
+
 ## Lighthouse ##
 
 ![alt text](<readme folder/lighthouse/lighthouse.png>)
@@ -145,19 +154,31 @@ The End page is a result of the total score of the current game.
 I have fixed bug in issues GitHub. 
 ![alt text](<readme folder/bug/bug.jpg>)
 
+# Deployment #
+
+The Ireland Rugby Quiz website was deployed via <a href="https://pages.github.com/">GitHub Pages</a>
+
+* Create a new repository on GitHub and push your code to it.
+* Go to the Settings tab of the repository.
+* Scroll down to the GitHub Pages Section.
+* Select the Branch you want to use for deployment (usually "master" or "main").
+* Save the changes.
+* Wait a few minutes for the changes to take effect.
+* Your project should now be live now.
+
 # Credits #
 
-Questions: https://www.sportsjoe.ie/rugby/quiz-well-know-irelands-history-six-nations-209369
+Where did I get question and answer from - <a href="https://www.sportsjoe.ie/rugby/quiz-well-know-irelands-history-six-nations-209369">Questions</a>
 
-Learn Javascript all the quiz: https://developer.mozilla.org/en-US/docs/Web/JavaScript and https://www.w3schools.com/js/default.asp
+Learn Javascript all the quiz - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">mdn web docs Javascript</a> and <a href="https://www.w3schools.com/js/default.asp">W3School Javascript</a>
 
-E.target explanation: https://www.altcademy.com/blog/what-is-e-target-in-javascript/#:~:text=In%20JavaScript%2C%20e%20typically%20stands,click%20or%20a%20keystroke%2C%20happened
+Explanation what is e.target - <a href="https://www.altcademy.com/blog/what-is-e-target-in-javascript/#:~:text=In%20JavaScript%2C%20e%20typically%20stands,click%20or%20a%20keystroke%2C%20happened">e.target</a>
 
-YouTube copy some but different wording that I am trying to learn new things, will be studying as I can: https://www.youtube.com/watch?v=PBcqGxrr9g8
+YouTube copy some but different wording - <a href="https://www.youtube.com/watch?v=PBcqGxrr9g8">Youtube</a>
 
-stack overflow how to get score show: https://stackoverflow.com/questions/63461753/how-can-i-make-show-score-show-a-text-message-if-certain-amount-of-scores-is-met
+stack overflow how to get score show - <a href="https://stackoverflow.com/questions/63461753/how-can-i-make-show-score-show-a-text-message-if-certain-amount-of-scores-is-met">Stack Overflow</a>
 
-Ireland Photography image: https://www.irishrugby.ie/gallery/six-try-ireland-record-comprehensive-win-against-italy/#nanogallery/undefined/0/16
+Ireland Photography image: <a href="https://www.irishrugby.ie/gallery/six-try-ireland-record-comprehensive-win-against-italy/#nanogallery/undefined/0/16">Photo</a>
 
-Ireland Rugby Logo download from devtools : Homepage: https://www.irishrugby.ie/ 
-                                            Download from devtools: https://d19fc3vd0ojo3m.cloudfront.net/irfu/wp-content/uploads/2018/12/06124919/new-logox495_rdax_80.jpg
+Ireland Rugby Logo website and download logo from devtools : Homepage: <a href="https://www.irishrugby.ie/">Irish Rugby Website</a> 
+Download image from devtools: <a href="https://d19fc3vd0ojo3m.cloudfront.net/irfu/wp-content/uploads/2018/12/06124919/new-logox495_rdax_80.jpg">Image Logo</a>
