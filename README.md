@@ -11,11 +11,14 @@ View the live project here: https://trxdave.github.io/ireland-rugby-quiz/
 * <a href="#built-with">Built With</a>
 * <a href="#design">Design</a>
 * <a href="#features">Features</a>
+    * <a href="#logo">Logo link</a>
     * <a href="#home-pages">Home Pages</a>
     * <a href="#game-page">Game Pages</a>
+    * <a href="#footer">Footer</a>
     * <a href="#end-page">End Game</a>
 * <a href="#technologies-used">Technologies Used</a>
 * <a href="#testing-and-validation">Testing and Validation</a>
+    * <a href="#lighthouse">Lighthouse</a>
     * <a href="#w3c-mark-up-validation">W3C Mark Up Validation</a>
     * <a href="#w3c-css-validation">W3C CSS Validation</a>
     * <a href="#jshint">JSHint</a>
@@ -62,6 +65,12 @@ The colour selected for this quiz was specifically chosen for readability
 
 # Features #
 
+## Logo ##
+
+Logo go back to homepage.
+
+![alt text](assets/images/irfu-logo.png)
+
 ## Home Pages ##
 
 The home page includes a welcome message and easy selection to Play Quiz or How to Play, and the below social network Ireland Rugby and Ireland Rugby Website.
@@ -88,7 +97,9 @@ Green Answer - Correct
 Red Answer - Incorrect and showing green is correct
 ![alt text](<readme folder/layout/redincorrect.png>)
 
-* Showing below three social network Facebook Ireland Rugby, Instagram Ireland Rugby and website Ireland Rugby.
+## Footer ##
+
+* Showing two social networks are Facebook Ireland Rugby and Instagram Ireland Rugby. The globe icon shows showing Ireland Rugby website.
 
 ![alt text](<readme folder/layout/Footer.jpg>)
 
@@ -129,13 +140,10 @@ The End page is a result of the total score of the current game.
 
 ![alt text](<readme folder/jshint/jshint.png>)
 
-
 # Bugs #
 
 I have fixed bug in issues GitHub. 
 ![alt text](<readme folder/bug/bug.jpg>)
-
-
 
 # Credits #
 
@@ -148,3 +156,8 @@ E.target explanation: https://www.altcademy.com/blog/what-is-e-target-in-javascr
 YouTube copy some but different wording that I am trying to learn new things, will be studying as I can: https://www.youtube.com/watch?v=PBcqGxrr9g8
 
 stack overflow how to get score show: https://stackoverflow.com/questions/63461753/how-can-i-make-show-score-show-a-text-message-if-certain-amount-of-scores-is-met
+
+Ireland Photography image: https://www.irishrugby.ie/gallery/six-try-ireland-record-comprehensive-win-against-italy/#nanogallery/undefined/0/16
+
+Ireland Rugby Logo download from devtools : Homepage: https://www.irishrugby.ie/ 
+                                            Download from devtools: https://d19fc3vd0ojo3m.cloudfront.net/irfu/wp-content/uploads/2018/12/06124919/new-logox495_rdax_80.jpg
