@@ -17,6 +17,10 @@ h1 {
     margin-top: 10px;
 }
 
+h2 {
+    margin-bottom: 20px;
+}
+
 img.irfu-logo {
     display: flex;
     margin-top: 0px;
@@ -74,7 +78,7 @@ button#play:hover {
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
-    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 button#how-to-play:hover {
@@ -191,8 +195,8 @@ h2#question {
 
 .box {
     border-radius: 10px;
-    width: 600px;
-    padding: 10px;
+    width: 30%;
+    padding: 20px;
     background-color: #00744c;
     color: white;
     font-size: 20px;
@@ -204,6 +208,12 @@ h2#question {
     margin-top: 100px;
     flex-wrap: wrap;
     text-align: center;
+    
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 20px;
 }
 
 /* For Screens 600px or smaller */
@@ -238,6 +248,14 @@ h2#question {
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #home-btn {
+        text-align: center;
+    }
+
+    #how-to-py {
+        text-align: center;
     }
 
 }

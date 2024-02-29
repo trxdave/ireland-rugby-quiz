@@ -111,6 +111,10 @@ The End page is a result of the total score of the current game.
 
 # Testing and Validation #
 
+## Lighthouse ##
+
+![alt text](<readme folder/lighthouse/lighthouse.png>)
+
 ## W3C Mark Up Validation ##
 
 * Home Page - ![alt text](<readme folder/validation/w3c mark up home.png>)
@@ -123,6 +127,7 @@ The End page is a result of the total score of the current game.
 
 ## JSHint ##
 
+![alt text](<readme folder/jshint/jshint.png>)
 
 
 # Bugs #
