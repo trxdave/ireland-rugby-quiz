@@ -5,7 +5,7 @@ const nextButton = document.getElementById("next-button");
 
 //* Seconds and Score *//
 
-let timeLeft = 60;
+let timeLeft = 120;
 let score = 0;
 
 function updateTimeAndScore() {
@@ -14,7 +14,7 @@ function updateTimeAndScore() {
 }
 
 function startCountdown() {
-  timeLeft = 60;
+  timeLeft = 120;
   updateTimeAndScore();
   const timer = setInterval(() => {
     timeLeft--;
@@ -42,7 +42,7 @@ function startQuiz(){
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
-    handleNextButton();
+    
     
     console.log(startQuiz);
 }
@@ -52,7 +52,7 @@ function startQuiz(){
 function showQuestion(){
     resetState();
     let currentQuestion = question[currentQuestionIndex];
-    let questionNo = currentQuestionIndex + 0;
+    let questionNo = currentQuestionIndex + 1;
     console.log(questionNo);
 
     questionElement.innerHTML = questionNo + " . " + currentQuestion.question;
