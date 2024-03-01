@@ -43,7 +43,7 @@ function startQuiz(){
     nextButton.innerHTML = "Next";
     showQuestion();
     handleNextButton();
-
+    
     console.log(startQuiz);
 }
 

@@ -69,6 +69,12 @@ The color chosen for this quiz was selected specifically for better readability.
 
 # Features #
 
+## Before Javascript ##
+
+Before adding Javascript, what does it look like?
+
+![alt text](<readme folder/layout/beforejavascript.png>)
+
 ## Logo ##
 
 Click on the logo to return to the homepage.
@@ -85,7 +91,7 @@ The homepage has a header that displays the title of the quiz, which is "Ireland
 
 Please find below a description of the features available on the game page:
 
-* Showing header of Ireland Rugby Quiz and logo.
+* Showing header of Ireland Rugby Quiz and click on the logo to return to the homepage.
 
 ![alt text](<readme folder/layout/Header.jpg>)
 
@@ -152,6 +158,8 @@ Tested the Ireland Rugby Quiz with Lighthouse, W3C Mark Up Validation, W3C CSS V
 
 # Bugs #
 
+There are two issues Bug
+
 I have fixed bug in issues GitHub. 
 ![alt text](<readme folder/bug/bug.jpg>)
 
@@ -159,13 +167,15 @@ I have fixed bug in issues GitHub.
 
 The Ireland Rugby Quiz website was deployed via <a href="https://pages.github.com/">GitHub Pages</a>
 
-* Create a new repository on GitHub and push your code to it.
-* Go to the Settings tab of the repository.
-* Scroll down to the GitHub Pages Section.
-* Select the Branch you want to use for deployment (usually "master" or "main").
-* Save the changes.
-* Wait a few minutes for the changes to take effect.
-* Your project should now be live now.
+* To create a new repository on GitHub and upload your code, follow these steps: 
+    1. Log in to your GitHub account.
+    2. Click the "New" button to create a new repository.
+    3. Give a name to your repository and choose the visibility (public or private).
+    4. Add a description if needed.
+    5. Select "Initialize this repository with a README" to create a README file for your project.
+    6. Add any other files or folders you want to upload to your repository.
+    7. Click "Commit changes" to save your changes.
+    8. Use the "git push" command to upload your code to the repository.
 
 # Credits #
 
