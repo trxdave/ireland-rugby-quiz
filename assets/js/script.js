@@ -138,6 +138,10 @@ document.addEventListener("DOMContentLoaded", function() {
 const nextButton = document.getElementById("next-button");
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    const answerButton = document.getElementById("answer-btn");
+});
+
 nextButton.addEventListener("click", ()=>{
         if (currentQuestionIndex < question.length) {
             handleNextButton();
