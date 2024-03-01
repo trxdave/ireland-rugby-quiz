@@ -9,9 +9,16 @@ let timeLeft = 120;
 let score = 0;
 
 function updateTimeAndScore() {
-  document.getElementById('current-time').textContent = timeLeft;
-  document.getElementById('current-score').textContent = score;
-}
+    const currentTimeElement = document.getElementById('current-time');
+    const currentScoreElement = document.getElementById('current-score');
+  
+    if (currentTimeElement && currentScoreElement) {
+      currentTimeElement.textContent = timeLeft;
+      currentScoreElement.textContent = score;
+    } else {
+      console.log('current-time or current-score element not found');
+    }
+  }
 
 function startCountdown() {
   timeLeft = 120;
@@ -29,11 +36,9 @@ function startCountdown() {
   }, 1000);
 }
 
-document.getElementById('next-button').addEventListener('click', () => {
-  
-});
-
 startCountdown();
+
+document.getElementById('next-button');
 
 //* Start Quiz *//
 
@@ -42,8 +47,7 @@ function startQuiz(){
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
-    
-    
+        
     console.log(startQuiz);
 }
 
@@ -129,6 +133,10 @@ function handleNextButton() {
 
     console.log(handleNextButton);
     }
+
+document.addEventListener("DOMContentLoaded", function() {
+const nextButton = document.getElementById("next-button");
+});
 
 nextButton.addEventListener("click", ()=>{
         if (currentQuestionIndex < question.length) {

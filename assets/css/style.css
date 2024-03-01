@@ -98,13 +98,14 @@ button#how-to-play:hover {
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
-    width: 40rem;
+    max-width: 40rem;
     height: 40rem;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     border: 1px solid black;
+    text-align: center;
 }
 
 .counter-container {
