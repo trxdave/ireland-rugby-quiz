@@ -11,6 +11,7 @@ View the live project here: https://trxdave.github.io/ireland-rugby-quiz/
 * <a href="#built-with">Built With</a>
 * <a href="#design">Design</a>
 * <a href="#features">Features</a>
+    * <a href="#before-javascript">Before Javascript</a>
     * <a href="#logo">Logo link</a>
     * <a href="#home-pages">Home Pages</a>
     * <a href="#game-page">Game Pages</a>
