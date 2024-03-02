@@ -17,6 +17,10 @@ Using Am I Responsive - website [am i responsive?](https://ui.dev/amiresponsive)
 
 So, buckle up, get ready for a journey through the highs and lows of Irish rugby, and let's see how well you know the game on the Emerald Isle!
 
+# UX #
+
+The project is a graphical user interface of a website quiz. Through the use of HTML, CSS, and JavaScript it demonstrates my programming knowledge.
+
 # Wireframes # 
 
 Before starting to code the game, I used Balsamic to create wireframes, which helped me to design a realistic and achievable game.
@@ -57,7 +61,7 @@ I use ColorZilla to find what is colour on the Irish Rugby website to make it ma
 
 [Irish Rugby Website](https://www.irishrugby.ie/)
 
-# Typograhy #
+# Typography #
 
 I use Google Fonts to find what is a suitable font for Ireland Rugby Quiz - <a href="https://fonts.google.com/>">Google Fonts</a>
 

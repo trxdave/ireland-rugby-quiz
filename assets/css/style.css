@@ -196,7 +196,7 @@ h2#question {
 
 .box {
     border-radius: 10px;
-    width: 30%;
+    max-width: 80%;
     padding: 20px;
     background-color: #00744c;
     color: white;
@@ -238,7 +238,7 @@ li {
 
     button#how-to-play {
         border-radius: 10px;
-        width: 30%;
+        max-width: 40rem;
         padding: 10px;
         background-color: #00744c;
         color: white;
