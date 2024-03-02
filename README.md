@@ -69,8 +69,6 @@ Before starting to code the game, I used Balsamic to create wireframes, which he
 
 # Design #
 
-Colour
-
 The color chosen for this quiz was selected specifically for better readability.
 
 ![alt text](<documentation/color/colours.png>)
