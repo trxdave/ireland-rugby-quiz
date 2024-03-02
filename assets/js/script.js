@@ -16,7 +16,7 @@ function updateTimeAndScore() {
       currentTimeElement.textContent = timeLeft;
       currentScoreElement.textContent = score;
     } else {
-      console.log('current-time or current-score element not found');
+      ('current-time or current-score element not found');
     }
   }
 
@@ -48,7 +48,7 @@ function startQuiz(){
     nextButton.innerHTML = "Next";
     showQuestion();
         
-    console.log(startQuiz);
+    
 }
 
 //* Show Question *//
@@ -57,10 +57,10 @@ function showQuestion(){
     resetState();
     let currentQuestion = question[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
-    console.log(questionNo);
+    
 
     questionElement.innerHTML = questionNo + " . " + currentQuestion.question;
-    console.log(currentQuestion);
+    
 
 //* Show Answer *//
 
@@ -81,7 +81,7 @@ function resetState(){
     while(answerButton.firstChild){
         answerButton.removeChild(answerButton.firstChild);
     }
-    console.log(resetState);
+    
 }
 
 //* Show Answer correct or incorrect *//
@@ -103,12 +103,12 @@ function selectAnswer(e) {
     });
     nextButton.style.display = "block";
     }
-console.log(selectAnswer);
+
 
 //* Show Scores *//
 
 function showScores() {
-    var gameOverHTML = "<h1>Congraltions your Result!!</h1>";
+    var gameOverHTML = "<h2>Congratuations your Result!!</h2>";
     gameOverHTML += "<h2 id='score'> Your scores: " + score + "</h2>";
     const element = document.getElementById("quiz");
     element.innerHTML = gameOverHTML;
@@ -116,7 +116,7 @@ function showScores() {
     nextButton.style.display = "block";
 
     if (!question) {
-        console.log("Quiz object or score not found.");
+        ("Quiz object or score not found.");
         return;
     }
 }
@@ -131,16 +131,8 @@ function handleNextButton() {
         showScores();
     }
 
-    console.log(handleNextButton);
+    
     }
-
-document.addEventListener("DOMContentLoaded", function() {
-const nextButton = document.getElementById("next-button");
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-    const answerButton = document.getElementById("answer-btn");
-});
 
 nextButton.addEventListener("click", ()=>{
         if (currentQuestionIndex < question.length) {

@@ -98,7 +98,7 @@ button#how-to-play:hover {
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
-    max-width: 40rem;
+    max-width: 80%;
     height: 40rem;
     padding: 10px;
     margin-left: auto;
@@ -109,7 +109,7 @@ button#how-to-play:hover {
 }
 
 .counter-container {
-    width: 90%;
+    width: 69%;
     height: 4rem;
     display: flex;
     justify-content: space-around;
@@ -196,7 +196,7 @@ h2#question {
 
 .box {
     border-radius: 10px;
-    max-width: 80%;
+    max-width: 60%;
     padding: 20px;
     background-color: #00744c;
     color: white;
@@ -209,7 +209,7 @@ h2#question {
     margin-top: 100px;
     flex-wrap: wrap;
     text-align: center;
-    
+    border: 1px solid black;
 }
 
 li {
@@ -218,6 +218,7 @@ li {
 }
 
 /* For Screens 600px or smaller */
+
 @media (max-width: 600px) {
     button#play {
         border-radius: 10px;

@@ -25,17 +25,41 @@ The project is a graphical user interface of a website quiz. Through the use of 
 
 Before starting to code the game, I used Balsamic to create wireframes, which helped me to design a realistic and achievable game.
 
+## Desktop ##
+
 ### Homepage - ###
+
 ![alt text](<documentation/wireframes/index.png>)
 
 ### Play Quiz - ### 
+
 ![alt text](<documentation/wireframes/playquiz.png>)
 
 ### How to Play - ###
+
 ![alt text](<documentation/wireframes/how-to-play.png>)
 
 ### Result - ### 
+
 ![alt text](<documentation/wireframes/result.png>)
+
+## Mobile ##
+
+### Homepage - ###
+
+![alt text](documentation/wireframes/mobile-homepage.png)
+
+### Play Quiz - ###
+
+![alt text](documentation/wireframes/mobile-how-to-play.png)
+
+### How to Play - ###
+
+![alt text](documentation/wireframes/mobile-how-to-play.png)
+
+### Result ###
+
+![alt text](documentation/wireframes/mobile-result.png)
 
 # Built with #
 
@@ -54,6 +78,8 @@ The color chosen for this quiz was selected specifically for better readability.
 - '#030303' used for primary text.
 - '#00744c' used for primary highlights.
 - '#ffffff' used for secondary text.
+- '#f1807E' is used to highlight the answer in red.
+- '#adff2f' is used to hightlight the answer in green.
 
 I use ColorZilla to find what is colour on the Irish Rugby website to make it match the colour on my Ireland Rugby Quiz.
 
