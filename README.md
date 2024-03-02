@@ -51,7 +51,7 @@ Before starting to code the game, I used Balsamic to create wireframes, which he
 
 ### Play Quiz - ###
 
-![alt text](documentation/wireframes/mobile-how-to-play.png)
+![alt text](documentation/wireframes/mobile-playquiz.png)
 
 ### How to Play - ###
 
@@ -81,7 +81,7 @@ The color chosen for this quiz was selected specifically for better readability.
 - '#f1807E' is used to highlight the answer in red.
 - '#adff2f' is used to hightlight the answer in green.
 
-I use ColorZilla to find what is colour on the Irish Rugby website to make it match the colour on my Ireland Rugby Quiz.
+I use ColorZilla to find out what is hex color on the Irish Rugby website to make it match the colour on my Ireland Rugby Quiz.
 
 [ColorZilla](https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
 
@@ -89,7 +89,7 @@ I use ColorZilla to find what is colour on the Irish Rugby website to make it ma
 
 # Typography #
 
-I use Google Fonts to find what is a suitable font for Ireland Rugby Quiz - <a href="https://fonts.google.com/>">Google Fonts</a>
+I use Google Fonts to find what is a suitable font for Ireland Rugby Quiz - [Google Fonts](https://fonts.google.com/)
 
 - [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans?query=noto) was used for the primary headers, quesiton and answers.
 
@@ -97,7 +97,7 @@ I use Google Fonts to find what is a suitable font for Ireland Rugby Quiz - <a h
 
 ## Before Javascript ##
 
-Before adding Javascript, what do question and answers look like?
+Before adding Javascript, what does a play quiz look like?
 
 ![alt text](<documentation/layout/beforejavascript.png>)
 
@@ -143,9 +143,9 @@ Please find below a description of the features available on the game page:
 
 ![alt text](<documentation/layout/footer.jpg>)
 
-## End Page ##
+## End of play quiz ##
 
-The "End" page shows the final score of the current game.
+The "End of play quiz" shows the final score of the current game.
 
 ![alt text](<documentation/layout/showscore.jpg>)
 
@@ -153,10 +153,11 @@ The "End" page shows the final score of the current game.
 
 My plan future if I revisit Project 2 in a couple of years included 
 
-* Adding more questions
+* Adding more questions.
 * Video of Ireland Rugby team to say Congratulation on your results!
 * Add pictures in question for which stadium?, Who is that players?, etc.
 * Add video in question for what will happen next shot the ball or catch the ball?
+* Add high scores board.
 
 # Technologies used #
 
@@ -213,8 +214,6 @@ I have fixed 5 bugs in issues on GitHub.
 
 There are other issues Bugs that I could not fix.
 
-
-
 # Deployment #
 
 * To create a new repository on GitHub and upload your code, follow these steps: 
@@ -231,8 +230,7 @@ There are other issues Bugs that I could not fix.
 In my [GitHub repository](https://github.com/trxdave/ireland-rugby-quiz),
 
 The live link can be found [here](https://trxdave.github.io/Ireland-rugby-quiz)
-    
-
+   
 # Credits #
 
 Where did I get the question and answer from? - [Questions](https://www.sportsjoe.ie/rugby/quiz-well-know-irelands-history-six-nations-209369")
