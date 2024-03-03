@@ -15,6 +15,7 @@ h1 {
     font-size: xxx-large;
     text-transform: uppercase;
     margin-top: 10px;
+    padding: 10px;
 }
 
 h2 {
@@ -217,9 +218,9 @@ li {
     margin-bottom: 20px;
 }
 
-/* For Screens 600px or smaller */
+/* For Screens 660px or smaller */
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
     button#play {
         border-radius: 10px;
         width: 30%;

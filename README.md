@@ -15,6 +15,8 @@ Using Am I Responsive - website [am i responsive?](https://ui.dev/amiresponsive)
 
 ![alt text](<documentation/responsive/amiresponvie.png>)
 
+Here's to see if am i responsive for the Irish Rugby Quiz. [Irish Rugby Quiz](https://ui.dev/amiresponsive?url=https://trxdave.github.io/ireland-rugby-quiz)
+
 So, buckle up, get ready for a journey through the highs and lows of Irish rugby, and let's see how well you know the game on the Emerald Isle!
 
 # UX #
@@ -77,9 +79,9 @@ The color chosen for this quiz was selected specifically for better readability.
 - '#00744c' used for primary highlights.
 - '#ffffff' used for secondary text.
 - '#f1807E' is used to highlight the answer in red.
-- '#adff2f' is used to hightlight the answer in green.
+- '#adff2f' is used to highlight the answer in green.
 
-I use ColorZilla to find out what is hex color on the Irish Rugby website to make it match the colour on my Ireland Rugby Quiz.
+I used ColorZilla to find out what is hex colour picker on the Irish Rugby website for Green, Black and white to make it match the colour on my Ireland Rugby Quiz.
 
 [ColorZilla](https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
 
@@ -147,6 +149,10 @@ The "End of play quiz" shows the final score of the current game.
 
 ![alt text](<documentation/layout/showscore.jpg>)
 
+After completing the quiz, the "play again" button does not appear on the results page. I will follow up after project 2 to learn more about this issue.
+
+![alt text](<documentation/Javascript/play again js.png>)
+
 # Future Features #
 
 My plan future if I revisit Project 2 in a couple of years included 
@@ -205,10 +211,13 @@ Report view question.js here - ![alt text](<documentation/jshint/question.png>)
 
 # Bugs #
 
-There are five issues Bugs
+There are three issues that I could not fix, but in the future, I could fix that I am only learning with Javascript.
 
-I have fixed 5 bugs in issues on GitHub. 
-![alt text](<documentation/bug/bug.jpg>)
+![alt text](<documentation/bug/3 bugs.png>)
+
+There are five issues Bugs, I have fixed 5 bugs in issues on GitHub.
+
+![alt text](documentation/bug/5-closed-bugs.png)
 
 There are other issues Bugs that I could not fix.
 

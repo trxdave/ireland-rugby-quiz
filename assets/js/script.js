@@ -119,6 +119,7 @@ function showScores() {
         ("Quiz object or score not found.");
         return;
     }
+    
 }
 
 //* Next Button *//
