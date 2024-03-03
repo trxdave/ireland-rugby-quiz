@@ -76,7 +76,7 @@ The color chosen for this quiz was selected specifically for better readability.
 ![alt text](<documentation/color/colours.png>)
 
 - '#030303' used for primary text.
-- '#00744c' used for primary highlights.
+- '#00744c' used for the background Button and Background Question Container/Result.
 - '#ffffff' used for secondary text.
 - '#f1807E' is used to highlight the answer in red.
 - '#adff2f' is used to highlight the answer in green.
@@ -85,9 +85,9 @@ To generate the color palette on [ColorSpace](https://mycolor.space/?hex=%23ADFF
 
 I used ColorZilla to find out what is hex colour picker on the Irish Rugby website for Green, Black and white to make it match the colour on my Ireland Rugby Quiz.
 
-[ColorZilla](https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
+- [ColorZilla](https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
 
-[Irish Rugby Website](https://www.irishrugby.ie/)
+- [Irish Rugby Website](https://www.irishrugby.ie/)
 
 # Typography #
 
@@ -119,7 +119,7 @@ I used ColorZilla to find out what is hex colour picker on the Irish Rugby websi
 
 ## Game Page ##
 
-Please find below a description of the features available on the game page:
+* Please find below a description of the features available on the game page:
 
 * Showing header of Ireland Rugby Quiz and click on the logo to return to the homepage.
 
@@ -184,11 +184,11 @@ It's always great to have plans for future improvements.
 
 # Testing and Validation #
 
-Tested the Ireland Rugby Quiz with Lighthouse, W3C Mark Up Validation, W3C CSS Validation, JSHint, and fixed bugs.
+* Tested the Ireland Rugby Quiz with Lighthouse, W3C Mark Up Validation, W3C CSS Validation, JSHint, and fixed bugs.
 
 ## Lighthouse ##
 
-I have used the recommended [Lighthouse developer chrome](https://developer.chrome.com/docs/lighthouse/overview) to report viewer of my homepages.
+* I have used the recommended [Lighthouse developer chrome](https://developer.chrome.com/docs/lighthouse/overview) to report viewer of my homepages.
 
 Report viewer here - ![alt text](<documentation/lighthouse/lighthouse.png>)
 
@@ -198,7 +198,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 * Home Page - ![alt text](<documentation/validation/w3c-mark-up-home.png>)
 * Play Quiz - ![alt text](<documentation/validation/w3c-mark-up-playquiz.jpg>)
-* How to Play - 
+* How to Play - ![alt text](documentation/validation/w3c-play-to-again.png)
 
 ## W3C CSS Validation ##
 
@@ -271,6 +271,7 @@ Download image from chrome devtools: [Image Logo](https://d19fc3vd0ojo3m.cloudfr
 | [W3Schools](https://www.w3schools.com/js/default.asp) | entire site | JavaScript Tutorial |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
+| [Coding Fantasy](https://codingfantasy.com/games/flexboxadventure/play) | entire site | Learn CSS and HTML playing coding Games |
 | [Stack Overflow](https://stackoverflow.com/questions/63461753/how-can-i-make-show-score-show-a-text-message-if-certain-amount-of-scores-is-met) | entire site | Show Score and Results |
 | [YouTube](https://www.youtube.com/watch?v=PBcqGxrr9g8) | entire site | How to use Question and Answer |
 | [e.target](https://www.altcademy.com/blog/what-is-e-target-in-javascript/#:~:text=In%20JavaScript%2C%20e%20typically%20stands,click%20or%20a%20keystroke%2C%20happened) | entire site | What is e.target |
@@ -284,8 +285,4 @@ Download image from chrome devtools: [Image Logo](https://d19fc3vd0ojo3m.cloudfr
 | [Photo](https://www.irishrugby.ie/gallery/six-try-ireland-record-comprehensive-win-against-italy/#nanogallery/undefined/0/16) | entire site | image | Irish Rugby Team |
 | [Image Logo](https://d19fc3vd0ojo3m.cloudfront.net/irfu/wp-content/uploads/2018/12/06124919/new-logox495_rdax_80.jpg) | entire site | image | Irish Rugby Logo |
 | [Questions](https://www.sportsjoe.ie/rugby/quiz-well-know-irelands-history-six-nations-209369") | entire site | Question | Using all the question to Ireland Rugby Quiz |
-
-
-
-
 

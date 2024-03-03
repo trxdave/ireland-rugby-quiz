@@ -16,7 +16,7 @@ function updateTimeAndScore() {
       currentTimeElement.textContent = timeLeft;
       currentScoreElement.textContent = score;
     } else {
-      ('current-time or current-score element not found');
+      timeLeft.score('current-time or current-score element not found');
     }
   }
 
@@ -116,7 +116,7 @@ function showScores() {
     nextButton.style.display = "block";
 
     if (!question) {
-        ("Quiz object or score not found.");
+        nextButton.gameOver("Quiz object or score not found.");
         return;
     }
     
