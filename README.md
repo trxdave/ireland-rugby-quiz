@@ -119,7 +119,7 @@ I used ColorZilla to find out what is hex colour picker on the Irish Rugby websi
 
 ## Game Page ##
 
-* Please find below a description of the features available on the game page:
+Please find below a description of the features available on the game page:
 
 * Showing header of Ireland Rugby Quiz and click on the logo to return to the homepage.
 
@@ -196,21 +196,26 @@ Report viewer here - ![alt text](<documentation/lighthouse/lighthouse.png>)
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-* Home Page - ![alt text](<documentation/validation/w3c-mark-up-home.png>)
-* Play Quiz - ![alt text](<documentation/validation/w3c-mark-up-playquiz.jpg>)
-* How to Play - ![alt text](documentation/validation/w3c-play-to-again.png)
+* Home Page - [Link Home page](https://trxdave.github.io/ireland-rugby-quiz/) ![alt text](<documentation/validation/w3c-mark-up-home.png>)
+* Play Quiz - [Link Play Quiz](https://trxdave.github.io/ireland-rugby-quiz/playquiz.html) ![alt text](<documentation/validation/w3c-mark-up-playquiz.jpg>)
+* How to Play - [Link How to Play](https://trxdave.github.io/ireland-rugby-quiz/how-to-play.html) ![alt text](documentation/validation/w3c-play-to-again.png)
 
 ## W3C CSS Validation ##
 
 I have used the recommended [HTML W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to validate all of my CSS file.
 
-Report view here - ![alt text](<documentation/validation/w3c-css-validation.png>)
+* CSS Styles - [Link CSS Style](assets/css/style.css)
+
+* Report view here - ![alt text](<documentation/validation/w3c-css-validation.png>)
 
 ## JSHint ##
 
 I using JavaScript file line at the very top of every single JavaScript file /* jshint esversion: 11 */
 
 I have used the recommended [JSHint](https://jshint.com/) to check of my javascript file.
+
+* JS script - [Link JS Script](assets/js/script.js)
+* JS question - [Link question](assets/js/question.js)
 
 * Report view script.js here - 
 
