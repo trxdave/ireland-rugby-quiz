@@ -81,6 +81,8 @@ The color chosen for this quiz was selected specifically for better readability.
 - '#f1807E' is used to highlight the answer in red.
 - '#adff2f' is used to highlight the answer in green.
 
+To generate the color palette on [ColorSpace](https://mycolor.space/?hex=%23ADFF2F&sub=1)
+
 I used ColorZilla to find out what is hex colour picker on the Irish Rugby website for Green, Black and white to make it match the colour on my Ireland Rugby Quiz.
 
 [ColorZilla](https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
