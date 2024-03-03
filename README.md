@@ -91,27 +91,29 @@ I used ColorZilla to find out what is hex colour picker on the Irish Rugby websi
 
 # Typography #
 
-I use Google Fonts to find what is a suitable font for Ireland Rugby Quiz - [Google Fonts](https://fonts.google.com/)
+- I use Google Fonts to find what is a suitable font for Ireland Rugby Quiz - [Google Fonts](https://fonts.google.com/)
 
 - [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans?query=noto) was used for the primary headers, quesiton and answers.
+
+- [Font Awesome](https://fontawesome.com/) icons were used throughout the site, such as the social media icons in the footer.
 
 # Features #
 
 ## Before Javascript ##
 
-Before adding Javascript, what does a play quiz look like?
+- Before adding Javascript, what does a play quiz look like?
 
 ![alt text](<documentation/layout/beforejavascript.png>)
 
 ## Logo ##
 
-Click on the logo to return to the homepage.
+- Click on the logo to return to the homepage.
 
 ![alt text](assets/images/irfu-logo.png)
 
 ## Home Pages ##
 
-The homepage has a header that displays the title of the quiz, which is "Ireland Rugby Quiz", along with the logo. It also has an image of the Ireland team and provides easy options to play the quiz or to learn how to play it. Additionally, the page includes links to Ireland Rugby's social media accounts and website.
+- The homepage has a header that displays the title of the quiz, which is "Ireland Rugby Quiz", along with the logo. It also has an image of the Ireland team and provides easy options to play the quiz or to learn how to play it. Additionally, the page includes links to Ireland Rugby's social media accounts and website.
 
 ![alt text](<documentation/layout/homepage.png>)
 
@@ -164,6 +166,8 @@ My plan future if I revisit Project 2 in a couple of years included
 * Add pictures in question for which stadium?, Who is that players?, etc.
 * Add video in question for what will happen next shot the ball or catch the ball?
 * Add high scores board.
+
+It's always great to have plans for future improvements.
 
 # Technologies used #
 
@@ -236,7 +240,7 @@ There are other issues Bugs that I could not fix.
     7. Click "Commit changes" to save your changes.
     8. Use the "git push" command to upload your code to the repository.
 
-In my [GitHub repository](https://github.com/trxdave/ireland-rugby-quiz),
+In the [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/trxdave/ireland-rugby-quiz),
 
 The live link can be found [here](https://trxdave.github.io/Ireland-rugby-quiz)
    
@@ -257,3 +261,31 @@ Ireland Photography image: [Photo](https://www.irishrugby.ie/gallery/six-try-ire
 Ireland Rugby Logo website and download logo from devtools : [Irish Rugby Website](https://www.irishrugby.ie/) 
 
 Download image from chrome devtools: [Image Logo](https://d19fc3vd0ojo3m.cloudfront.net/irfu/wp-content/uploads/2018/12/06124919/new-logox495_rdax_80.jpg)
+
+# Content #
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [W3Schools](https://www.w3schools.com/css/default.asp) | contact page | CSS Tutorial |
+| [W3Schools](https://www.w3schools.com/js/default.asp) | entire site | JavaScript Tutorial |
+| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
+| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
+| [Stack Overflow](https://stackoverflow.com/questions/63461753/how-can-i-make-show-score-show-a-text-message-if-certain-amount-of-scores-is-met) | entire site | Show Score and Results |
+| [YouTube](https://www.youtube.com/watch?v=PBcqGxrr9g8) | entire site | How to use Question and Answer |
+| [e.target](https://www.altcademy.com/blog/what-is-e-target-in-javascript/#:~:text=In%20JavaScript%2C%20e%20typically%20stands,click%20or%20a%20keystroke%2C%20happened) | entire site | What is e.target |
+| [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | entire site | Searching the Javascript standard ojbects and functions |
+
+# Media #
+
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+| [Irish Rugby](https://www.irishrugby.ie/) | entire site | image | Irish Rugby Website |
+| [Photo](https://www.irishrugby.ie/gallery/six-try-ireland-record-comprehensive-win-against-italy/#nanogallery/undefined/0/16) | entire site | image | Irish Rugby Team |
+| [Image Logo](https://d19fc3vd0ojo3m.cloudfront.net/irfu/wp-content/uploads/2018/12/06124919/new-logox495_rdax_80.jpg) | entire site | image | Irish Rugby Logo |
+| [Questions](https://www.sportsjoe.ie/rugby/quiz-well-know-irelands-history-six-nations-209369") | entire site | Question | Using all the question to Ireland Rugby Quiz |
+
+
+
+
+
