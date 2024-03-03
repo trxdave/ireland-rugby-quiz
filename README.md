@@ -93,7 +93,7 @@ I used ColorZilla to find out what is hex colour picker on the Irish Rugby websi
 
 - I use Google Fonts to find what is a suitable font for Ireland Rugby Quiz - [Google Fonts](https://fonts.google.com/)
 
-- [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans?query=noto) was used for the primary headers, quesiton and answers.
+- [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans?query=noto) was used for the primary headers, question and answers.
 
 - [Font Awesome](https://fontawesome.com/) icons were used throughout the site, such as the social media icons in the footer.
 
