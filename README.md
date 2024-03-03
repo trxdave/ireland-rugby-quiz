@@ -212,8 +212,13 @@ I using JavaScript file line at the very top of every single JavaScript file /* 
 
 I have used the recommended [JSHint](https://jshint.com/) to check of my javascript file.
 
-Report view script.js here - ![alt text](<documentation/jshint/jshint.png>)
-Report view question.js here - ![alt text](<documentation/jshint/question.png>)
+* Report view script.js here - 
+
+![alt text](<documentation/jshint/jshint.png>)
+
+* Report view question.js here - 
+
+![alt text](<documentation/jshint/question.png>)
 
 # Bugs #
 
@@ -221,11 +226,9 @@ There are three issues that I could not fix, but in the future, I could fix that
 
 ![alt text](<documentation/bug/3 bugs.png>)
 
-There are five issues Bugs, I have fixed 5 bugs in issues on GitHub.
+There are five issues Bugs, I have fixed 5 bugs shown in issues on GitHub.
 
 ![alt text](documentation/bug/5-closed-bugs.png)
-
-There are other issues Bugs that I could not fix.
 
 # Deployment #
 
@@ -240,9 +243,9 @@ There are other issues Bugs that I could not fix.
     7. Click "Commit changes" to save your changes.
     8. Use the "git push" command to upload your code to the repository.
 
-In the [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/trxdave/ireland-rugby-quiz),
+* Click to Open in Gitpod [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/trxdave/ireland-rugby-quiz),
 
-The live link can be found [here](https://trxdave.github.io/Ireland-rugby-quiz)
+* The live link can be found [here](https://trxdave.github.io/Ireland-rugby-quiz)
    
 # Credits #
 
@@ -268,7 +271,7 @@ Download image from chrome devtools: [Image Logo](https://d19fc3vd0ojo3m.cloudfr
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [W3Schools](https://www.w3schools.com/css/default.asp) | contact page | CSS Tutorial |
-| [W3Schools](https://www.w3schools.com/js/default.asp) | entire site | JavaScript Tutorial |
+| [W3Schools](https://www.w3schools.com/js/default.asp) | contact page | JavaScript Tutorial |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
 | [Coding Fantasy](https://codingfantasy.com/games/flexboxadventure/play) | entire site | Learn CSS and HTML playing coding Games |
@@ -285,4 +288,3 @@ Download image from chrome devtools: [Image Logo](https://d19fc3vd0ojo3m.cloudfr
 | [Photo](https://www.irishrugby.ie/gallery/six-try-ireland-record-comprehensive-win-against-italy/#nanogallery/undefined/0/16) | entire site | image | Irish Rugby Team |
 | [Image Logo](https://d19fc3vd0ojo3m.cloudfront.net/irfu/wp-content/uploads/2018/12/06124919/new-logox495_rdax_80.jpg) | entire site | image | Irish Rugby Logo |
 | [Questions](https://www.sportsjoe.ie/rugby/quiz-well-know-irelands-history-six-nations-209369") | entire site | Question | Using all the question to Ireland Rugby Quiz |
-
