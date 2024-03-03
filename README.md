@@ -155,7 +155,7 @@ The "End of play quiz" shows the final score of the current game.
 
 After completing the quiz, the "play again" button does not appear on the results page. I will follow up after project 2 to learn more about this issue.
 
-![alt text](<documentation/Javascript/play again js.png>)
+![alt text](<documentation/Javascript/play-again-js.png>)
 
 # Future Features #
 
@@ -224,7 +224,7 @@ I have used the recommended [JSHint](https://jshint.com/) to check of my javascr
 
 There are three issues that I could not fix, but in the future, I could fix that I am only learning with Javascript.
 
-![alt text](<documentation/bug/3 bugs.png>)
+![alt text](<documentation/bug/3-bugs.png>)
 
 There are five issues Bugs, I have fixed 5 bugs shown in issues on GitHub.
 
@@ -279,6 +279,7 @@ Download image from chrome devtools: [Image Logo](https://d19fc3vd0ojo3m.cloudfr
 | [YouTube](https://www.youtube.com/watch?v=PBcqGxrr9g8) | entire site | How to use Question and Answer |
 | [e.target](https://www.altcademy.com/blog/what-is-e-target-in-javascript/#:~:text=In%20JavaScript%2C%20e%20typically%20stands,click%20or%20a%20keystroke%2C%20happened) | entire site | What is e.target |
 | [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | entire site | Searching the Javascript standard ojbects and functions |
+| [Perplexity](https://www.perplexity.ai/) | entire site | Searching to useful and easy to explain |
 
 # Media #
 
