@@ -1,6 +1,6 @@
 # Ireland Rugby Quiz
 
-View the live project here: https://trxdave.github.io/ireland-rugby-quiz/
+View the live project here: [Ireland Rugby Quiz](https://trxdave.github.io/ireland-rugby-quiz/)
 
 # Introduction #
 Welcome to the Ireland Rugby Quiz, where your knowledge of Irish rugby will be put to the test! This quiz is designed to challenge your understanding of Ireland's rich rugby history, legendary players, memorable moments, and the intricacies of the sport in the Emerald Isle.
@@ -29,37 +29,37 @@ Before starting to code the game, I used Balsamic to create wireframes, which he
 
 ## Desktop ##
 
-### Homepage - ###
+#### Desktop wireframe of the homepage - ####
 
 ![alt text](<documentation/wireframes/index.png>)
 
-### Play Quiz - ### 
+#### Desktop wireframe of the play quiz structure - #### 
 
 ![alt text](<documentation/wireframes/playquiz.png>)
 
-### How to Play - ###
+#### Desktop wireframe of the how to play structure - ####
 
 ![alt text](<documentation/wireframes/how-to-play.png>)
 
-### Result - ### 
+#### Desktop wireframe of the result structure - #### 
 
 ![alt text](<documentation/wireframes/result.png>)
 
 ## Mobile ##
 
-### Homepage - ###
+#### Mobile wireframe of the homepage - ####
 
 ![alt text](documentation/wireframes/mobile-homepage.png)
 
-### Play Quiz - ###
+#### Mobile wireframe of the play quiz structure - #### 
 
 ![alt text](documentation/wireframes/mobile-playquiz.png)
 
-### How to Play - ###
+#### Mobile wireframe of the how to play structure - ####
 
 ![alt text](documentation/wireframes/mobile-how-to-play.png)
 
-### Result ###
+#### Mobile wireframe of the result structure - ####
 
 ![alt text](documentation/wireframes/mobile-result.png)
 
@@ -285,6 +285,10 @@ Download image from chrome devtools: [Image Logo](https://d19fc3vd0ojo3m.cloudfr
 | [e.target](https://www.altcademy.com/blog/what-is-e-target-in-javascript/#:~:text=In%20JavaScript%2C%20e%20typically%20stands,click%20or%20a%20keystroke%2C%20happened) | entire site | What is e.target |
 | [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | entire site | Searching the Javascript standard ojbects and functions |
 | [Perplexity](https://www.perplexity.ai/) | entire site | Searching to useful and easy to explain |
+| [ColorSpace](https://mycolor.space/?hex=%23ADFF2F&sub=1) | entire site | Colour Palette |
+| [ColorZilla](https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp) | entire site | Picker Colour |
+| [Google Fonts](https://fonts.google.com/) | entire site | Fonts |
+| [Font Awesome](https://fontawesome.com/) | entire site | Social Media Icons |
 
 # Media #
 
